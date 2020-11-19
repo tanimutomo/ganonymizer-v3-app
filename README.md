@@ -3,8 +3,7 @@
 ## Examples
 input / output (ganonymized)
 
-<img src="./asset/input.png" width="300">
-<img src="./asset/output.png" width="300">
+<img src="./asset/input.png" width="300"> <img src="./asset/output.png" width="300">
 
 
 ## Usage
