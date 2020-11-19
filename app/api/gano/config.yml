@@ -1,0 +1,19 @@
+mode: exec # [exec, debug, sage]
+log_root: log
+gpu_id: 3
+resize_factor: null
+
+# semseg
+semseg_method: DeepLabV3
+resnet: 18
+shadow_angle: 90
+base_ksize: 7
+shadow_ratio: 0.3
+expand_ratio: 0.01
+noise_ratio: 0.01
+obj_h_ratio: 0.5
+
+# inpainting
+inpaint_method: EdgeConnect
+sigma: 2
+max_hole_size: 100
